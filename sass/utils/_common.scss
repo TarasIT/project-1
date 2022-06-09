@@ -1,0 +1,63 @@
+body {
+  font-family: 'Roboto', 'Comfortaa', 'sans-serif';
+  color: #212121;
+}
+
+body.menu-open,
+body.modal-open {
+  overflow: hidden;
+}
+
+ul,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation,
+.contacts,
+.portfolio-filters,
+.project-list,
+.features,
+.field-work,
+.team,
+.teammate__networks,
+.clients,
+.join-section__networks,
+.mobile-menu-navigation,
+.mobile-menu-contacts,
+.menu-socials-list {
+  list-style: none;
+}
+
+.container {
+  min-width: 320px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}

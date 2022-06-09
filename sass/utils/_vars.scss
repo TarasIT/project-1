@@ -1,0 +1,37 @@
+$black-text-color: #212121;
+$gray-text-color: #757575;
+$white-text-background-color: #ffffff;
+$blue-text-background-color: #2196f3;
+$footer-link-text-color: rgba(255, 255, 255, 0.6);
+$hero-footer-background-color: #2f303a;
+$team-btn-background-color: #f5f4fa;
+$accent-border-header-color: #ececec;
+$project__meta-border-color: #eeeeee;
+$background-gradient-hero-color: rgba(47, 48, 58, 0.4);
+$border-client-icon-color: #afb1b8;
+$background-work-transparent-color: rgba(47, 48, 58, 0.8);
+
+$transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$transition-duration: 250ms;
+$backdrop-background-color: rgba(0, 0, 0, 0.2);
+$background-color-submit-btn: #188ce8;
+
+:root {
+  --black-text-color: #212121;
+  --gray-text-color: #757575;
+  --white-text-background-color: #ffffff;
+  --blue-text-background-color: #2196f3;
+  --footer-link-text-color: rgba(255, 255, 255, 0.6);
+  --hero-footer-background-color: #2f303a;
+  --team-btn-background-color: #f5f4fa;
+  --accent-border-header-color: #ececec;
+  --project__meta-border-color: #eeeeee;
+  --background-gradient-hero-color: rgba(47, 48, 58, 0.4);
+  --border-client-icon-color: #afb1b8;
+  --background-work-transparent-color: rgba(47, 48, 58, 0.8);
+
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-duration: 250ms;
+  --backdrop-background-color: rgba(0, 0, 0, 0.2);
+  --background-color-submit-btn: #188ce8;
+}
